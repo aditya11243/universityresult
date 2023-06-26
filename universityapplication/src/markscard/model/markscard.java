@@ -35,8 +35,10 @@ public class markscard {
 
     public static void main(String[] args){
         System.out.println("Enter the name and enrollment number");
-        Scanner name=new Scanner(System.in);
-        Scanner enrollmentno=new Scanner(System.in);
+       @Override
+public String toString(){
+return "Student[EnrollmentNumber=" + enrollmentno + ", name=" + name +"]";
+}
 
 
     }
